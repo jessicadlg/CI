@@ -2,3 +2,9 @@ language: java
 script: mvn clean test
 jdk:
   - openjdk11
+notifications:
+  email:
+    recipients:
+      -jessijoana2@gmail.com
+    on_success: never
+    on_failure: always
