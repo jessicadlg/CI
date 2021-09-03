@@ -49,7 +49,7 @@ public class CajaFuerteTest {
         CajaFuerte caja= givenExisteUnaCajaFuerte();
         givenCierroLaCajaFuerte(caja,CODIGO_DE_APERTURA );
 
-        whenAbroLaCajaFuerteCon(caja,CODIGO_DE_APERTURA );
+        whenAbroLaCajaFuerteCon(caja,CODIGO_DE_APERTURA + 8);
 
         thenCajaFuerteEstaCerrada(caja);
     }
