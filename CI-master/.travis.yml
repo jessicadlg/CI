@@ -1,0 +1,10 @@
+language: java
+script: mvn clean test
+jdk:
+  - openjdk11
+notifications:
+  email:
+    recipients:
+      -jessica_dlg@live.com.ar
+    on_success: change
+    on_failure: always
